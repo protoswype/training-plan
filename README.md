@@ -1,5 +1,7 @@
 # 16W Makrozyklus – Sportklettern
 
+> **Disclaimer:** This is a personal project created solely for my own use. The training data, plans, and structure reflect my individual situation and goals. Nothing here constitutes general training advice. Not intended for redistribution or use by others. See [LICENSE](LICENSE).
+
 Personal climbing training plan app. Accessible from anywhere via GitHub Pages.
 
 ## GitHub Pages Setup
