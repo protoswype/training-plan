@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>16W Makrozyklus – Sportklettern</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>16-Wochen Makrozyklus · Sportklettern</h1>
+  <span class="phase-chip" id="phaseChip"></span>
+  <span class="header-meta">Ziel: UIAA 8 indoor / UIAA 7 outdoor · Start: 4. Mai 2026</span>
+</header>
+
+<div class="main">
+  <nav class="sidebar" id="sidebar"></nav>
+
+  <div class="calendar-area" id="calendarArea"></div>
+</div>
+
+<!-- Session modal -->
+<div class="overlay hidden" id="sessionModal">
+  <div class="modal" id="sessionModalContent"></div>
+</div>
+
+<!-- Exercise detail modal -->
+<div class="overlay hidden" id="exerciseModal">
+  <div class="modal" id="exerciseModalContent"></div>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
